@@ -38,12 +38,12 @@ Primary use:   Food & Restaurant Template
                         
 
 Background: #ffffff 
-Content:    #8A8A8A 
+Content:    #74060E 
 Heading h1: #ffffff
 Header h2, h3, h4, h5, h6:  #000000  
 
 a (standard):  #000000 
-a (visited):   #8A8A8A 
+a (visited):   #74060E 
 a (hover):   #000000 
 a (active):  #000000
 
@@ -113,7 +113,7 @@ p {
     font-weight: 500;
     font-size: 18px;
     line-height: 30px;
-    color: #8A8A8A;
+    color: #74060E;
     font-family: 'Jost', sans-serif;
 }
 span {
@@ -567,7 +567,7 @@ input:focus-visible {
 }
 .scroll-top:hover{
     border-color: transparent;
-    background-color: #8A8A8A;
+    background-color: #74060E;
 }
 
 
@@ -602,9 +602,12 @@ input:focus-visible {
     flex-direction: column;
     height: 100%;
     padding: 0 40px;
+    background-color: #B99652;
 }
 .header-logo a{
     display: block;
+    padding-left: 50px;
+    
 }
 .foholic-fixed-sidebar .header-logo{
     display: inline-block;
@@ -633,8 +636,8 @@ input:focus-visible {
     height: 2px;
     left: -40px;
     top: 17%;
-    color: #8A8A8A;
-    background-color: #8A8A8A;
+    color: #74060E;
+    background-color: #74060E;
     -webkit-transition: 0.2s ease-in-out;
     -moz-transition: 0.2s ease-in-out;
     -ms-transition: 0.2s ease-in-out;
@@ -645,24 +648,26 @@ input:focus-visible {
     width: 40px;
 }
 .menu-list .nav-links.active {
-    color: #8A8A8A;
+    color: #74060E;
     padding-left: 20px;
 }
 .menu-list .nav-links:hover{
-    color: #8A8A8A;
+    color: #74060E;
 }
 .navbar-navs .nav-links:hover{
-    color: #8A8A8A;
+    color: #74060E;
+    text-align: center;
 }
 .menu-wrap .menu-table{
-    border: 1px solid #8A8A8A;
+    border: 1px solid #74060E;
     padding: 15px 20px 20px 20px;
 }
 .menu-table .table-detail{
     font-size: 16px;
     line-height: 16px;
-    color: #8A8A8A;
+    color: #74060E;
     padding-bottom: 5px;
+    
 }
 .menu-table .booking-number{
     font-style: normal;
@@ -674,21 +679,22 @@ input:focus-visible {
 }
 .foholic-social-ic{
     padding-top: 47px;
+    text-align: center;
 }
 .social-ic i, .social-ic svg{
-    color: #8A8A8A;
+    color: #74060E;
     width: 24px;
     height: 24px;
     display: block;
 }
 .social-ic svg path{
-    fill: #8A8A8A;
+    fill: #74060E;
     width: 24px;
     height: 24px;
 }
 .foholic-social-ic .social-ic{
     padding: 16px;
-    border: 1px solid #8A8A8A;
+    border: 1px solid #74060E;
     border-radius: 50%;
     display: inline-block;
 }
@@ -814,8 +820,8 @@ input:focus-visible {
     height: 10px;
     line-height: 10px;
     font-size: 10px;
-    color: #8A8A8A;
-    background: #8A8A8A;
+    color: #74060E;
+    background: #74060E;
     transition:all .2s ease;
     text-align: center;
     margin: 0 15px;  
@@ -1053,7 +1059,7 @@ input:focus-visible {
 }
 .skil-progressbar span {
     height: 5px;
-    background-color: #8A8A8A;
+    background-color: #74060E;
     display: inline-block;
     position: absolute;
     left: 0;
@@ -1176,7 +1182,7 @@ input:focus-visible {
 .swiper-button-next.swiper-button-disabled, 
 .swiper-button-prev.swiper-button-disabled{
     color: #ffffff;
-    background: #8A8A8A;
+    background: #74060E;
     transition: all 0.27s cubic-bezier(0.000, 0.000, 0.580, 1.000);
     opacity: 1;
     cursor: pointer;
@@ -1242,7 +1248,8 @@ input:focus-visible {
     height: 100%;
     left: 0;
     top: 0;
-    background: rgba(0, 0, 0, .75);
+    /*background: rgba(0, 0, 0, .75); */
+    background: #74060E;
     z-index: 0;
 }
 .food_video .container{
@@ -1308,7 +1315,7 @@ input:focus-visible {
     line-height: 18px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    color: #8A8A8A;
+    color: #74060E;
     font-family: 'Montserrat', sans-serif;
     margin: 0 40px 0 0;
     padding: 0;
@@ -1418,12 +1425,12 @@ button.navs-tabs:hover::before {
 .form-register textarea.form-control{
     height: 120px;
     padding: 10px;
-    border: 1px solid #8A8A8A;
+    border: 1px solid #74060E;
     border-radius: 0;
     font-size: 18px;
     line-height: 18px;
     font-weight: 400;
-    color: #8A8A8A;
+    color: #74060E;
     font-family: 'Jost', sans-serif;
 }
 .form-register .form-input{
@@ -1436,7 +1443,7 @@ button.navs-tabs:hover::before {
     display: flex;
     align-items: center;
     background-color: transparent;
-    border: 1px solid #8A8A8A;
+    border: 1px solid #74060E;
     border-radius: 0px;
     width: 100%;
     height: 60px;
@@ -1447,12 +1454,12 @@ button.navs-tabs:hover::before {
     font-size: 18px;
     line-height: 18px;
     font-weight: 400;
-    color: #8A8A8A;
+    color: #74060E;
     font-family: 'Jost', sans-serif;
 }
 .form-input .input_ic{
     padding: 10px 10px;
-    border-right: 1px solid #8A8A8A;
+    border-right: 1px solid #74060E;
 }
 .form-input .select_option{
     width: 100%;
@@ -1463,7 +1470,7 @@ button.navs-tabs:hover::before {
     font-size: 18px;
     line-height: 18px;
     font-weight: 400;
-    color: #8A8A8A;
+    color: #74060E;
     background: transparent;
     border: none;
     font-family: 'Jost', sans-serif;
@@ -1513,14 +1520,14 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     fill: #ffffff;
 }
 .hover-icons a:hover{
-    background: #8A8A8A;
+    background: #74060E;
     border: transparent;
 }
 .hover-icons a svg path{
-    fill: #8A8A8A;
+    fill: #74060E;
 }
 .hover-icons a i{
-    color: #8A8A8A;
+    color: #74060E;
 }
 .hover-icons {
     position: absolute; 
@@ -1804,7 +1811,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     font-size: 18px;
     font-weight: 600;
     line-height: 18px;
-    color: #8A8A8A;
+    color: #74060E;
     margin-bottom: 15px;
     padding: 0;
 }
@@ -2011,7 +2018,7 @@ textarea.custom-form-control {
 .blog-category ul li{
     border-bottom: 1px solid #eee;
     padding: 8px 0;
-    color: #8A8A8A;
+    color: #74060E;
     text-transform: uppercase;
 }
 .related-items {
@@ -2028,7 +2035,7 @@ textarea.custom-form-control {
 }
 .item_title {
     font-size: 20px;
-    color: #8A8A8A;
+    color: #74060E;
     padding-bottom: 6px;
 }
 .latest_date:before {
@@ -2038,7 +2045,7 @@ textarea.custom-form-control {
     padding-right: 10px;
 }
 .latest_date{
-    color: #8A8A8A;
+    color: #74060E;
     font-size: 16px;
 }
 
@@ -2062,15 +2069,15 @@ textarea.custom-form-control {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    color: #8A8A8A;
+    color: #74060E;
     line-height: 18px;
     padding: 0 30px;
-    border: 1px solid #8A8A8A;
+    border: 1px solid #74060E;
     font-family: 'Jost', sans-serif;
 }
 .form-check .form-check-input{
     border-radius: 0;
-    border: 1px solid #8A8A8A;
+    border: 1px solid #74060E;
 }
 .form-check-label{
     font-style: normal;
@@ -2078,7 +2085,7 @@ textarea.custom-form-control {
     font-size: 18px;
     line-height: 18px;
     font-family: 'Jost', sans-serif;
-    color: #8A8A8A;
+    color: #74060E;
     padding-left: 10px;
 }
 .newsletter__form .form-check{
@@ -2189,7 +2196,7 @@ textarea.custom-form-control {
     line-height: 18px;
 }
 .breadcrumb li{
-    color: #8A8A8A;
+    color: #74060E;
     font-weight: 600;
     font-size: 18px;
     line-height: 18px;
@@ -2263,7 +2270,7 @@ textarea.custom-form-control {
 }
 .team_popup_box .modal_icons a{
     padding: 12px;
-    border: 1px solid #8A8A8A;
+    border: 1px solid #74060E;
     border-radius: 50%;
     display: inline-block;
     margin: 0 4px;
@@ -2278,7 +2285,7 @@ textarea.custom-form-control {
     color: #ffffff;
 }
 .icon-ic i, .icon-ic svg{
-    color: #8A8A8A;
+    color: #74060E;
     width: 20px;
     height: 20px;
     display: block;
